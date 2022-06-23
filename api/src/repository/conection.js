@@ -1,8 +1,8 @@
-import mysql from 'mysql2/promise';
-const con=avait mysql.createConection({
-    host:process.env.mysql_host,
-    user:
-    passeivoral:
-    database:x
-})
+const con = aguardemysql.criarConexão({
+    hospedeiro:processo.env.MYSQL_HOST,
+    usuário:processo.env.MYSQL_USER,
+    senha:processo.env.MYSQL_PWD,
+    banco:processo.env.MYSQL_DB
+} )
+
 export {con}
